@@ -1,0 +1,1 @@
+angular.module("EnteranceApp",[]),angular.module("EnteranceApp").controller("EnteranceController",["$scope","$location",function(a,b){a.link=b.$$protocol+"://"+b.$$host+"/views/",window.location.href=a.link}]);
