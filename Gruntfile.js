@@ -45,6 +45,17 @@ module.exports = function(grunt) {
             ]
           }
         ]
+      },
+      ui: {
+        files: [
+          {
+            dest: 'scripts/app.ui.min.js',
+            src: [
+              'src/scripts/ui/app.js',
+              'src/scripts/ui/*.js'
+            ]
+          }
+        ]
       }
     },
 
