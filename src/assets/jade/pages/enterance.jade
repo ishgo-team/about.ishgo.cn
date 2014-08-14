@@ -1,0 +1,11 @@
+doctype html
+html(lang="zh")
+  head
+    title 正在为你跳转...
+    include ../partial/head
+    script.
+      window.location.href = '/views/';
+
+  body
+    a(href="/views/", title="正在为你跳转")
+      | 正在为你跳转
